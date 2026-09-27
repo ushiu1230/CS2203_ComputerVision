@@ -75,6 +75,7 @@ for driver in all_selected_drivers:
         print(f"-> Driver {driver} selected representative recording: {chosen_rec}")
         allow_patterns.append(f"dataset/{chosen_rec}/rgb.mp4")
         allow_patterns.append(f"dataset/{chosen_rec}/saliency.mp4")
+        allow_patterns.append(f"dataset/{chosen_rec}/sim_gaze_df.csv")
 
 # 5. Download the exact data according to the optimal configuration
 print("\nDownloading the optimal subset from Hugging Face...")
