@@ -4,7 +4,7 @@ from huggingface_hub import HfApi, snapshot_download
 # 1. Cấu hình tham số
 repo_id = "dfki-av/drivergaze360"
 repo_type = "dataset"
-save_dir = "./drivergaze360_subset"
+save_dir = "./04_Projects/driver-attention/drivergaze360_subset"
 
 # 2. Quét danh sách file trên Hugging Face
 api = HfApi()
